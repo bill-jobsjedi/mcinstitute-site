@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
+<meta name="referrer" content="no-referrer">
+<title>MC Institute — English School</title>
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Mulish:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="header">
+  <div class="wrap header-inner">
+    <a class="logo" href="#top" aria-label="MC Institute International Student Center">
+      <img src="assets/img/mc-serif.png" alt="MC Institute International Student Center">
+    </a>
+
+    <nav class="nav">
+      <div class="nav-item active"><a class="nav-link" href="#top" data-i18n="nav_home">Início</a></div>
+      <div class="nav-item"><a class="nav-link" href="About Us.html" data-i18n="nav_about">Sobre nós</a></div>
+
+      <div class="nav-item">
+        <span class="nav-link" data-i18n="nav_courses">Cursos e Programas
+          <svg class="caret" viewBox="0 0 12 8" fill="none"><path d="M1 1.5 6 6.5 11 1.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </span>
+        <div class="dropdown">
+          <a href="Intensive English.html" data-i18n="courses_intensive">Inglês Intensivo</a>
+          <a href="Semi Intensive English.html" data-i18n="courses_semi">Inglês Semi-Intensivo</a>
+          <a href="Intercambio Cultural.html" data-i18n="courses_cultural">Intercâmbio Cultural</a>
+        </div>
+      </div>
+
+      <div class="nav-item"><a class="nav-link" href="Calendar.html" data-i18n="nav_calendar">Calendário</a></div>
+      <div class="nav-item"><a class="nav-link" href="Contact.html" data-i18n="nav_contact">Contato</a></div>
+    </nav>
+
+    <!-- language -->
+    <div class="lang">
+      <button class="lang-btn" aria-label="Language">
+        <span class="fl">🇧🇷</span><span class="lab">Português</span>
+        <svg class="caret" viewBox="0 0 12 8" fill="none" width="10"><path d="M1 1.5 6 6.5 11 1.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <div class="lang-menu">
+        <button data-code="pt-br"><span>🇧🇷</span> Português</button>
+        <button data-code="en"><span>🇺🇸</span> English</button>
+        <button data-code="es"><span>🇪🇸</span> Español</button>
+      </div>
+    </div>
+
+    <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- mobile drawer -->
+<div class="scrim"></div>
+<aside class="drawer">
+  <button class="drawer-close" aria-label="Close">&times;</button>
+  <a href="#top" data-i18n="nav_home">Início</a>
+  <a href="About Us.html" data-i18n="nav_about">Sobre nós</a>
+  <a href="#live" data-i18n="live_eyebrow">Viva melhor</a>
+  <a href="#enjoy" data-i18n="enjoy_eyebrow">Aproveite a MetroWest</a>
+  <a href="#voices" data-i18n="voices_eyebrow">Vozes de sucesso</a>
+  <a href="Calendar.html" data-i18n="nav_calendar">Calendário</a>
+  <a href="Contact.html" data-i18n="nav_contact">Contato</a>
+  <a class="btn btn-outline" style="justify-content:center;margin-top:14px" href="Contact.html" data-i18n="nav_apply">Inscreva-se</a>
+</aside>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <h1>
+        <span class="l1" data-i18n="hero_l1">Domine o inglês.</span>
+        <span class="l2" data-i18n="hero_l2">Transforme sua vida.</span>
+      </h1>
+      <p class="hero-body" data-i18n="hero_body">Abra novos horizontes...</p>
+      <a class="btn btn-outline" href="Contact.html" data-i18n="hero_cta">Começar agora</a>
+    </div>
+    <div class="hero-img">
+      <img src="assets/img/hero-student.png" alt="Estudante com mochila e livros">
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURES + ABOUT ============ -->
+<section class="features" id="about">
+  <div class="wrap features-grid">
+    <div class="cards-2x2">
+      <div class="fcard gray reveal">
+        <svg class="ficon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="9" r="5.2"/><path d="m12 6.6.9 1.8 2 .3-1.45 1.4.34 2L12 11.4l-1.8.95.34-2L9.1 8.95l2-.3z" fill="currentColor" stroke="none"/><path d="M8.5 13.5 7 22l5-2.6L17 22l-1.5-8.5"/></svg>
+        <h4 data-i18n="feat1_t">Mais de 28 anos de experiência</h4>
+        <p data-i18n="feat1_b"></p>
+      </div>
+      <div class="fcard blue reveal d1">
+        <svg class="ficon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 6.5C10 4.8 7.3 4.5 4.5 5v13c2.8-.5 5.5-.3 7.5 1.4 2-1.7 4.7-1.9 7.5-1.4V5c-2.8-.5-5.5-.2-7.5 1.5Z"/><path d="M12 6.5v13"/></svg>
+        <h4 data-i18n="feat2_t">Métodos testados e comprovados</h4>
+        <p data-i18n="feat2_b"></p>
+      </div>
+      <div class="fcard blue reveal d1">
+        <svg class="ficon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s-6.5-5.1-6.5-10A6.5 6.5 0 0 1 12 4.5 6.5 6.5 0 0 1 18.5 11c0 4.9-6.5 10-6.5 10Z"/><circle cx="12" cy="10.8" r="2.4"/></svg>
+        <h4 data-i18n="feat3_t">Bela MetroWest</h4>
+        <p data-i18n="feat3_b"></p>
+      </div>
+      <div class="fcard gray reveal d2">
+        <svg class="ficon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 4 2.5 9 12 14l9.5-5L12 4Z"/><path d="M6.5 11v4.2c0 .9 2.5 2.3 5.5 2.3s5.5-1.4 5.5-2.3V11"/><path d="M21.5 9v4.5"/></svg>
+        <h4 data-i18n="feat4_t">Educadores de classe mundial</h4>
+        <p data-i18n="feat4_b"></p>
+      </div>
+    </div>
+
+    <div class="about reveal d1">
+      <p class="eyebrow" data-i18n="about_eyebrow">Sobre nós</p>
+      <h2 data-i18n="about_title">Por que escolher a MC Institute?</h2>
+      <p data-i18n="about_body"></p>
+      <a class="btn btn-outline" href="About Us.html" data-i18n="about_cta">Saiba mais</a>
+      <div class="badges"><img src="assets/img/badges.png" alt="NAFSA · CEA"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LIVE BETTER ============ -->
+<section class="section-dark live" id="live">
+  <span class="tri-up"></span>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="live_eyebrow">Viva melhor</p>
+      <h2 data-i18n="live_title">Aprender inglês torna a vida melhor</h2>
+      <p class="sub" data-i18n="live_sub"></p>
+    </div>
+    <div class="live-cards">
+      <div class="lcard reveal">
+        <div class="ph" style="background-image:url('assets/img/live-1.jpg')"></div>
+        <div class="lcard-body">
+          <h3 data-i18n="live1_t">Desbloqueie oportunidades</h3>
+          <p data-i18n="live1_b"></p>
+          <a class="btn btn-outline" href="Contact.html" data-i18n="apply_now">Inscreva-se</a>
+        </div>
+      </div>
+      <div class="lcard reveal d1">
+        <div class="ph" style="background-image:url('assets/img/live-2.png')"></div>
+        <div class="lcard-body">
+          <h3 data-i18n="live2_t">Conecte-se globalmente</h3>
+          <p data-i18n="live2_b"></p>
+          <a class="btn btn-outline" href="Contact.html" data-i18n="apply_now">Inscreva-se</a>
+        </div>
+      </div>
+      <div class="lcard reveal d2">
+        <div class="ph" style="background-image:url('assets/img/live-3.jpg')"></div>
+        <div class="lcard-body">
+          <h3 data-i18n="live3_t">Comunique-se com confiança</h3>
+          <p data-i18n="live3_b"></p>
+          <a class="btn btn-outline" href="Contact.html" data-i18n="apply_now">Inscreva-se</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ENJOY METROWEST ============ -->
+<section class="enjoy" id="enjoy">
+  <div class="wrap">
+    <div class="enjoy-row">
+      <div class="enjoy-text reveal">
+        <p class="eyebrow" data-i18n="enjoy_eyebrow">Aproveite a MetroWest</p>
+        <h2 data-i18n="enjoy_title">A cidade da magia e do entretenimento</h2>
+        <p data-i18n="enjoy_body"></p>
+        <a class="btn btn-outline" href="Contact.html" data-i18n="apply_now">Inscreva-se</a>
+      </div>
+      <div class="enjoy-media reveal d1" style="background-image:url('assets/img/enjoy-1.jpg')"></div>
+    </div>
+
+    <div class="enjoy-split">
+      <div class="enjoy-media reveal" style="background-image:url('assets/img/enjoy-2.jpg')"></div>
+      <div class="enjoy-text reveal d1">
+        <h3 data-i18n="enjoy2_t">Entretenimento inigualável</h3>
+        <p data-i18n="enjoy2_b"></p>
+      </div>
+    </div>
+
+    <div class="enjoy-row rev" style="margin-top:30px">
+      <div class="enjoy-text reveal">
+        <h3 data-i18n="enjoy3_t">Clima agradável</h3>
+        <p data-i18n="enjoy3_b"></p>
+      </div>
+      <div class="enjoy-media reveal d1" style="background-image:url('assets/img/enjoy-3.jpg')"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VOICES (testimonials + faq) ============ -->
+<section class="voices" id="voices">
+  <div class="wrap">
+    <div class="section-head reveal" style="margin-bottom:10px">
+      <p class="eyebrow" data-i18n="voices_eyebrow">Vozes de sucesso</p>
+      <h2 data-i18n="voices_title">Ouça nossa próspera comunidade</h2>
+      <p class="sub" data-i18n="voices_sub"></p>
+    </div>
+
+    <div class="voices-grid">
+      <!-- testimonials -->
+      <div class="reveal">
+        <div class="col-title"><span class="ic">📢</span><span data-i18n="testimonials">Depoimentos</span></div>
+        <div class="tcarousel">
+          <div class="ttrack">
+            <div class="tslide on">
+              <div class="quote">
+                <div class="avatar" style="background-image:url('https://ui-avatars.com/api/?name=Sari+Masuda&background=1577c0&color=fff&size=160&font-size=0.4')"></div>
+                <div>
+                  <div class="tstars">★★★★★</div>
+                  <p data-i18n="t1_quote"></p>
+                  <div class="tname" data-i18n="t1_name">Sari Masuda</div>
+                </div>
+              </div>
+            </div>
+            <div class="tslide">
+              <div class="quote">
+                <div class="avatar" style="background-image:url('https://ui-avatars.com/api/?name=Kouassi+Mevo&background=7a2433&color=fff&size=160&font-size=0.4')"></div>
+                <div>
+                  <div class="tstars">★★★★★</div>
+                  <p data-i18n="t2_quote"></p>
+                  <div class="tname" data-i18n="t2_name">Dr. Kouassi Gilles Mevo</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tdots">
+            <button class="tdot on" aria-label="1"></button>
+            <button class="tdot" aria-label="2"></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- faq -->
+      <div class="reveal d1">
+        <div class="col-title"><span class="ic" style="color:#ff8a93">❓</span><span data-i18n="faq_title">Perguntas frequentes</span></div>
+        <div class="faq">
+          <div class="faq-item open">
+            <button class="faq-q"><span data-i18n="faq1_q"></span><span class="pm"></span></button>
+            <div class="faq-a"><div data-i18n="faq1_a"></div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q"><span data-i18n="faq2_q"></span><span class="pm"></span></button>
+            <div class="faq-a"><div data-i18n="faq2_a"></div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q"><span data-i18n="faq3_q"></span><span class="pm"></span></button>
+            <div class="faq-a"><div data-i18n="faq3_a"></div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q"><span data-i18n="faq4_q"></span><span class="pm"></span></button>
+            <div class="faq-a"><div data-i18n="faq4_a"></div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q"><span data-i18n="faq5_q"></span><span class="pm"></span></button>
+            <div class="faq-a"><div data-i18n="faq5_a"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <span class="tri-down"></span>
+  <div class="wrap foot-grid">
+    <div class="foot-about">
+      <div class="foot-logo"><img src="assets/img/mc-serif.png" alt="MC Institute International Student Center"></div>
+      <p class="foot-tag" data-i18n="foot_tagline">Em nossa vasta família global, a diversidade é a nossa força.</p>
+      <div class="foot-contact">
+        <div class="ci"><span class="em">✉️</span><div><div class="lbl" data-i18n="foot_email">E-mail</div><a href="mailto:contact@mcinstituteisc.com">contact@mcinstituteisc.com</a></div></div>
+        <div class="ci"><span class="em">📍</span><div><div class="lbl" data-i18n="foot_location">Endereço</div><a href="https://www.google.com/maps?q=6200+MetroWest+Blvd+Suite+208+Orlando+FL+32835" target="_blank" rel="noopener">6200 MetroWest Blvd, Suite 208, Orlando, FL 32835</a></div></div>
+        <div class="ci"><span class="em">📱</span><div><div class="lbl" data-i18n="foot_phone">Telefone</div><a href="tel:+14074210417">407-421-0417</a></div></div>
+        <div class="ci"><span class="em">📅</span><div><div class="lbl" data-i18n="foot_hours">Horário</div>
+          <div class="foot-hours-row">
+            <div class="hh"><div class="d" data-i18n="foot_hours_mt">Seg – Qui</div><div class="v" data-i18n="foot_hours_mt_v">9h – 14h / 18h – 22h</div></div>
+            <div class="hh"><div class="d" data-i18n="foot_hours_fr">Sexta</div><div class="v" data-i18n="foot_hours_fr_v">9h – 14h</div></div>
+          </div>
+        </div></div>
+      </div>
+    </div>
+    <div class="foot-col">
+      <h5>MetroWest</h5>
+      <a href="index.html#top" data-i18n="fl_home">Início</a>
+      <a href="About Us.html" data-i18n="fl_about">Sobre nós</a>
+      <a href="Calendar.html" data-i18n="fl_calendar">Calendário</a>
+      <a href="Contact.html" data-i18n="fl_contact">Contato</a>
+    </div>
+    <div class="foot-col">
+      <h5 data-i18n="nav_courses">Cursos e Programas</h5>
+      <a href="Intensive English.html" data-i18n="courses_intensive">Inglês Intensivo</a>
+      <a href="Semi Intensive English.html" data-i18n="courses_semi">Inglês Semi-Intensivo</a>
+      <a href="Intercambio Cultural.html" data-i18n="courses_cultural">Intercâmbio Cultural</a>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="wrap">
+      <div>© 2024-2026 MC Education Services LLC d/b/a MC Institute · <span data-i18n="foot_rights">Todos os direitos reservados.</span></div>
+      <div class="legal"><a href="privacy.html" data-i18n="foot_privacy">Política de Privacidade</a> &nbsp;|&nbsp; <a href="terms.html" data-i18n="foot_terms">Termos e Condições</a></div>
+      <div class="foot-social">
+        <a href="https://www.instagram.com/mcinstituteisc/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg class="ig" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" stroke="none"/></svg>
+          <span data-i18n="foot_follow">Siga-nos</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div id="tweaks-root"></div>
+
+<script src="assets/i18n.js"></script>
+<script src="assets/main.js"></script>
+
+<!-- Tweaks panel (React) -->
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="tweaks-app.jsx"></script>
+</body>
+</html>
